@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFBF5;
+    color: rgb(23, 24, 25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    color: #A78BFA;
+}
+
+form {
+    background: rgb(188, 103, 155);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 300px;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #E0E7FF;
+    border-radius: 8px;
+    background: #FEF6FF;
+}
+
+button {
+    background: #A5B4FC;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgb(71, 73, 91);
+}
+
+a {
+    display: inline-block; /* Permite aplicar padding y margin */
+    background: #A5B4FC;
+    color: white;
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-align: center; /* Centra el texto */
+    margin: 5px 0; /* Espaciado entre botones */
+}
