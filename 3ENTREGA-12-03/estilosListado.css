@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #495057; /* Texto gris oscuro */
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+a {
+    color: #6c757d; /* Gris para enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #495057; /* Gris más oscuro al hacer hover */
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
+}
+
+/* Secciones de libros, revistas y multimedia */
+.seccion {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f8f9fa; /* Fondo gris claro para cada sección */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
+}
+
+.seccion h1 {
+    font-size: 28px;
+    color: #343a40; /* Texto gris oscuro */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilos para los recursos (libros, revistas, multimedia) */
+.recurso {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recurso:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+}
+
+.recurso p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #6c757d; /* Texto gris */
+}
+
+.recurso p strong {
+    color: #343a40; /* Texto gris oscuro para etiquetas */
+}
+
+/* Botones de navegación */
+button {
+    background-color: #6c757d; /* Gris para botones */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px 5px; /* Espaciado entre botones */
+}
+
+button:hover {
+    background-color: #495057; /* Gris más oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Enlaces de "Volver" y "Cerrar sesión" */
+a[href="menuUsuario.php"],
+a[href="cerrarSesion.php"] {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #6c757d; /* Gris para botones */
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a[href="menuUsuario.php"]:hover,
+a[href="cerrarSesion.php"]:hover {
+    background-color: #495057; /* Gris más oscuro al hacer hover */
+    transform: translateY(-2px);
+}

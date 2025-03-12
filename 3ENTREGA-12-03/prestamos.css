@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #495057; /* Texto gris oscuro */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ocupa al menos toda la altura de la pantalla */
+    text-align: center;
+}
+
+/* Enlace de "Volver" */
+a[href="menuUsuario.php"] {
+    position: absolute; /* Posición absoluta para colocarlo en la esquina */
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #6c757d; /* Gris para el botón */
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a[href="menuUsuario.php"]:hover {
+    background-color: #495057; /* Gris más oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Título de la página */
+h1 {
+    font-size: 36px;
+    color: #343a40; /* Texto gris oscuro */
+    margin-bottom: 20px;
+}
+
+/* Botones de filtrado */
+button {
+    background-color: #6c757d; /* Gris para botones */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #495057; /* Gris más oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0;
+    border-collapse: separate; /* Separar los bordes de las celdas */
+    border-spacing: 0; /* Eliminar el espacio entre celdas */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: 1px solid #ddd; /* Borde exterior de la tabla */
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd; /* Borde para cada celda */
+}
+
+table th {
+    background-color: #6c757d; /* Gris para el encabezado */
+    color: #fff;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo gris claro para filas pares */
+}
+
+table tr:hover {
+    background-color: #f1f3f5; /* Fondo gris claro al hacer hover */
+}
+
+/* Mensaje cuando no hay préstamos */
+p {
+    font-size: 18px;
+    color: #6c757d; /* Texto gris */
+    margin-top: 20px;
+}

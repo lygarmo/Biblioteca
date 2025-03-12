@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif; /* Tipografía moderna */
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #495057; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    text-align: center;
+}
+
+/* Enlace de "Cerrar sesión" */
+a[href="cerrarSesion.php"] {
+    position: absolute; /* Posición absoluta para colocarlo en la esquina */
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #6c757d; /* Gris para el botón */
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a[href="cerrarSesion.php"]:hover {
+    background-color: #495057; /* Gris más oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Título del menú */
+h1 {
+    font-size: 36px;
+    color: #343a40; /* Texto gris oscuro */
+    margin-bottom: 40px;
+}
+
+/* Enlaces del menú */
+.menu-enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre enlaces */
+}
+
+.menu-enlaces a {
+    background-color: #6c757d; /* Gris para los botones */
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-enlaces a:hover {
+    background-color: #495057; /* Gris más oscuro al hacer hover */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
